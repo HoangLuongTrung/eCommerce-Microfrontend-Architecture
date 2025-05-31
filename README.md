@@ -3,15 +3,6 @@
 
 ## ⚙️ Architecture Overview
 
-Monorepo/
-├── shell/ # Host container (React)
-├── mfe-storefront/ # Vue.js – product catalog
-├── mfe-cart-checkout/ # React – cart + checkout
-├── mfe-user-dashboard/ # Angular – profile, orders
-├── mfe-admin-panel/ # React/Angular – admin tools
-├── backend/ # Node.js + Express + PostgreSQL
-
-
 - **Microfrontend with Module Federation**
 - Shared backend API (REST or GraphQL)
 - PostgreSQL as the main database
